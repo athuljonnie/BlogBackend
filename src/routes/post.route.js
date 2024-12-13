@@ -12,4 +12,5 @@ router.delete('/delete-post', postController.deletePost);
 
 router.put('/post/:postId', postController.editPost);
 
+// router.post('/trial-post', postController.trialPost);
 module.exports = router;
